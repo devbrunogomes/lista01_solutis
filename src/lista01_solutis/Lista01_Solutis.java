@@ -22,7 +22,7 @@ public class Lista01_Solutis {
        //Questao09.resposta(args);
        //Questao10.resposta(args);
        //Questao11.resposta(args);
-       Questao12.resposta(args);
+       //Questao12.resposta(args);
                
     }
     
