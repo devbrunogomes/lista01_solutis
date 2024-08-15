@@ -16,5 +16,11 @@ public class Questao01 {
         j = 10;
         System.out.println("i + j = " + j + i);
 
+        /*
+        O programa terá a saída: “i + j = 105)”, pois, na linha de output o sinal “+” 
+        é interpretado como concatenação, e não como soma. Se fosse pra ser 
+        interpretado como soma, a operação “j+i” deveria ser envolvida com parenteses.
+        
+         */
     }
 }
