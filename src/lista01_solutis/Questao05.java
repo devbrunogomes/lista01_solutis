@@ -16,16 +16,17 @@ public class Questao05 {
         Scanner scan = new Scanner(System.in);
         String[] diasDaSemana = {"Segunda", "Terca", "Quarta", "Quinta", "Sexta", "Sabado", "Domingo"};
         int num = 0;
-        
+
         System.out.print("Digite um numero de 1 a 7: ");
         num = scan.nextInt();
-        
-        do {
+
+        while ((num <= 0) || (num > 7)) {
             System.out.println("Numero invalido!");
             System.out.print("Digite um numero de 1 a 7: ");
             num = scan.nextInt();
-        } while ((num <= 0) || (num > 7));
+        }
+
         System.out.println("================");
-        System.out.println("Dia escolhido: " + diasDaSemana[num-1]);
+        System.out.println("Dia escolhido: " + diasDaSemana[num - 1]);
     }
 }
